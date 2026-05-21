@@ -10,23 +10,44 @@
 
 body{
     margin:0;
-    font-family:Arial;
-    background:
-linear-gradient(
-rgba(0,0,0,0.7),
-rgba(0,0,0,0.7)
-),
-url("SUALOGO.png");
+    font-family:Arial, sans-serif;
 
-background-size:cover;
-background-position:center;
-background-attachment:fixed;;
+    background-color:#1f1f1f;
+
+    background-image:
+    linear-gradient(
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)
+    ),
+    url("SUALOGO.png");
+
+    background-size:700px;
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     color:white;
     text-align:center;
 }
 
-.container{
-    padding:40px 20px;
+container{
+    width:90%;
+    max-width:700px;
+
+    padding:50px 30px;
+
+    background:rgba(0,0,0,0.35);
+
+    border-radius:30px;
+
+    backdrop-filter:blur(5px);
 }
 
 
@@ -43,15 +64,23 @@ p{
     line-height:1.6;
 }
 
-.botao{
+..botao{
     display:inline-block;
+
     margin-top:20px;
-    padding:15px 35px;
-    background:#d4af37;
-    color:black;
+
+    padding:16px 35px;
+
+    background:#a4161a;
+
+    color:White;
+
     text-decoration:none;
+
     border-radius:40px;
+
     font-weight:bold;
+
     transition:0.3s;
 }
 
@@ -60,7 +89,9 @@ p{
 }
 }
 
-</style>
+.botao:hover{
+    transform:scale(1.05);
+}
 .campo{
     width:280px;
     padding:15px;
@@ -70,6 +101,9 @@ p{
     font-size:16px;
     text-align:center;
 }
+
+</style>
+   
 </head>
 
 <body>
@@ -91,16 +125,16 @@ class="campo">
     
 
 <a class="botao"
-href="https://wa.me/5581994211500">
+href="https://docs.google.com/forms/d/e/1FAIpQLSc7xghwOzTBE736l3FPB1BeDEurX69WrWkPDSANGg5NK0ZtVA/viewform?usp=publish-editor"
+target="_blank">
 Confirmar presença
 </a>
-<br><br>
 
 <a class="botao"
-href="https://wa.me/5581994211500">
+href="https://docs.google.com/forms/d/e/1FAIpQLSc7xghwOzTBE736l3FPB1BeDEurX69WrWkPDSANGg5NK0ZtVA/viewform?usp=publish-editor"
+target="_blank">
 Deixar uma mensagem para Cecília 💌
 </a>
-</div>
 
 </body>
 </html>
