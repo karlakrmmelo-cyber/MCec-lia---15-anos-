@@ -11,7 +11,16 @@
 body{
     margin:0;
     font-family:Arial;
-    background:linear-gradient(135deg,#d8b4fe,#86efac);
+    background:
+linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)
+),
+url("SUALOGO.png");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;;
     color:white;
     text-align:center;
 }
@@ -20,13 +29,7 @@ body{
     padding:40px 20px;
 }
 
-img{
-    width:220px;
-    height:220px;
-    border-radius:50%;
-    object-fit:cover;
-    border:5px solid white;
-    margin-top:20px;
+
 }
 
 h1{
@@ -42,25 +45,38 @@ p{
 
 .botao{
     display:inline-block;
-    margin-top:30px;
+    margin-top:20px;
     padding:15px 35px;
-    background:red;
-    color:#9333ea;
+    background:#d4af37;
+    color:black;
     text-decoration:none;
     border-radius:40px;
     font-weight:bold;
+    transition:0.3s;
+}
+
+.botao:hover{
+    transform:scale(1.05);
+}
 }
 
 </style>
+.campo{
+    width:280px;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    margin-top:30px;
+    font-size:16px;
+    text-align:center;
+}
 </head>
 
 <body>
 
 <div class="container">
 
-<img src="https://i.imgur.com/8Km9tLL.jpg">
-
-<h1>Maria Cecília ✨</h1>
+<h1>Maria Cecília - 15 anos</h1>
 
 <p>
  Uma comemoração especial merece pessoas especiais.
@@ -69,11 +85,21 @@ p{
 
 <h2>12 de Setembro • 16h</h2>
 
+<input type="text"
+placeholder="Digite seu nome"
+class="campo">    
+    
+
 <a class="botao"
 href="https://wa.me/5581994211500">
 Confirmar presença
 </a>
+<br><br>
 
+<a class="botao"
+href="https://wa.me/5581994211500">
+Deixar uma mensagem para Cecília 💌
+</a>
 </div>
 
 </body>
