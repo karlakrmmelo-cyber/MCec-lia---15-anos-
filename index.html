@@ -10,47 +10,40 @@
 <style>
 
 body{
+
     margin:0;
+
     font-family:Arial, sans-serif;
 
-    background-color:#1f1f1f;
+    background:white;
 
-    background-image:
-    linear-gradient(
-    rgba(0,0,0,0.70),
-    rgba(0,0,0,0.70)
-    ),
-    url("SUALOGO.png");
-
-    background-size:55%;
+    background-image:url("SUALOGO.png");
 
     background-repeat:no-repeat;
 
     background-position:center;
 
+    background-size:55%;
+
     min-height:100vh;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
-    color:white;
-    text-align:center;
 }
 
 .container{
 
-    width:90%;
-    max-width:700px;
+    display:flex;
 
-    padding:50px 30px;
+    flex-direction:column;
 
-    background:rgba(0,0,0,0.15);
+    gap:20px;
 
-    border-radius:30px;
-
-    backdrop-filter:blur(2px);
-}
+    margin-top:350px;
 
 h1{
     font-size:48px;
@@ -81,13 +74,11 @@ p{
     text-align:center;
 }
 
-.botao{
+..botao{
 
     display:inline-block;
 
-    margin-top:20px;
-
-    padding:16px 35px;
+    padding:18px 40px;
 
     background:#a4161a;
 
@@ -95,14 +86,19 @@ p{
 
     text-decoration:none;
 
-    border-radius:40px;
+    border-radius:50px;
 
     font-weight:bold;
 
+    font-size:18px;
+
     transition:0.3s;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.15);
 }
 
 .botao:hover{
+
     transform:scale(1.05);
 }
 
@@ -113,20 +109,6 @@ p{
 <body>
 
 <div class="container">
-
-<h1>Maria Cecília - 15 anos</h1>
-
-<p>
-Uma comemoração especial merece pessoas especiais.
-Espero você para celebrar comigo esse momento inesquecível 💖
-</p>
-
-<h2>12 de Setembro • 16h</h2>
-
-<input
-type="text"
-placeholder="Digite seu nome"
-class="campo">
 
 <br><br>
 
